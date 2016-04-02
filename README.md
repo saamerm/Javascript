@@ -2,7 +2,7 @@ For people interested in the web detrack, learn material and bootstrap.
 # Javascript
 
 http://eloquentjavascript.net/02_program_structure.html
-Eloaquent book
+Eloquent book
 
 -++-First App-++-
 +++===+++
