@@ -1,6 +1,26 @@
 For people interested in the web detrack, learn material and bootstrap.
-# Javascript
+#Jquery 
+Javascript is a language  Jquery simply a library written in javascript
+jquery but dojo kindo. same syntax. PARTS-
+1) Dom - provides a consistent cross-browser way of working with the DOM. Provides a simplified technique for accessing elements in the DOM using CSS selectors.
+2)ajax - Privudes several simple methods you can use to exchange data with a web server using Ajax and easy ways to work with the data
+3)events & 
+4)effects - built in effects & animations
 
+Two different ways->
+
+var result=$("body");
+A DOM selector 
+var result2=$.get("");
+Utilty class
+focus on components, selectors. 
+$ signs is jquery. 
+Dont clash or race conditions. 
+$ or jquery. var html=document.getElementById(""); var body=$("body"); 
+
+# Javascript
+Put your script just before the body tag
+Place the javascript after document.ready to prevent the blink 
 http://eloquentjavascript.net/02_program_structure.html
 Eloquent book
 
