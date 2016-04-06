@@ -167,7 +167,22 @@ You cannot add an event handler to an event that doesnt exist.
   show:500,hide:300
   }  });  
   //HOMEWORK Take the exact html  frm the website getbootstrap. An example of each one
+  //$('[title]').tooltip({
+    placement:top;
+  }  });  
+  //OR
+  $('[title]').tooltip({
+    placement:function(element, target){
+  $(el).css({
+  top:50;//top:target.offset().top+10; also
+  })
+  }  });  
+  //There is no return type
   
+  //Play most with Modal
+  //Heres the title, heres the body, and i make it one method
+  //Skip scroll spy
+  //Until tooltip
 # Javascript
 Put your script just before the body tag
 Place the javascript after document.ready to prevent the blink 
